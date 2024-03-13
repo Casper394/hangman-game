@@ -1,7 +1,7 @@
 import HangmanGame from './HangmanGame'
 
 function App() {
-
+  
   return (
     <>
       <HangmanGame />
