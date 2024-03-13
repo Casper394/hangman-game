@@ -1,0 +1,113 @@
+.hangmanContainer {
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.gallows-1 {
+  position: absolute;
+  bottom: 20%;
+  left: 20%;
+  width: 80px;
+  height: 7px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.gallows-2 {
+  position: absolute;
+  bottom: 20%;
+  left: 32.4%;
+  width: 7px;
+  height: 200px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.gallows-3 {
+  position: absolute;
+  top: 13%;
+  left: 32.4%;
+  width: 100px;
+  height: 7px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.gallows-4 {
+  position: absolute;
+  top: 13%;
+  left: 64%;
+  width: 7px;
+  height: 40px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.guy-head {
+  position: absolute;
+  top: 25%;
+  left: 60.1%;
+  width: 20px;
+  height: 20px;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  border-radius: 50%;
+}
+
+.guy-torso {
+  position: absolute;
+  top: 34%;
+  left: 64%;
+  width: 7px;
+  height: 70px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.guy-lefthand {
+  position: absolute;
+  top: 38%;
+  left: 59%;
+  width: 7px;
+  height: 45px;
+  transform: rotate(45deg);
+  background-color: black;
+  border-radius: 5px;
+}
+
+.guy-righthand {
+  position: absolute;
+  top: 38%;
+  left: 69%;
+  width: 7px;
+  height: 45px;
+  transform: rotate(-45deg);
+  background-color: black;
+  border-radius: 5px;
+}
+
+.guy-leftleg {
+  position: absolute;
+  top: 55%;
+  left: 60.5%;
+  width: 7px;
+  height: 45px;
+  transform: rotate(30deg);
+  background-color: black;
+  border-radius: 5px;
+}
+
+.guy-rightleg {
+  position: absolute;
+  top: 55%;
+  left: 67.5%;
+  width: 7px;
+  height: 45px;
+  transform: rotate(-30deg);
+  background-color: black;
+  border-radius: 5px;
+}

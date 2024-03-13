@@ -1,0 +1,21 @@
+.word {
+  display: flex;
+  column-gap: 30px;
+  margin: 30px auto 40px;
+}
+
+.letter-wrapper {
+  border-bottom: 4px solid black;
+  height: 55px;
+  width: 30px;
+}
+
+.letter {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.blank-spot {
+  height: 55px;
+  width: 30px;
+}

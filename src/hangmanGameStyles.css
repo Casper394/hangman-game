@@ -1,0 +1,42 @@
+.hangmanGameContainer {
+  width: 900px;
+  margin: 50px auto 0;
+}
+
+.header {
+  text-align: center;
+}
+
+.tryAgainContainer {
+  position: absolute;
+  top: 2%;
+  left: 1%;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: none;
+}
+
+.tryAgainText {
+  margin: 5px 0 15px 0;
+}
+
+.tryAgainButton {
+  width: 100%;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: .5rem 1rem;
+  transition: all 250ms ease-in-out;
+}
+.tryAgainButton:hover {
+  background-color: rgb(200, 200, 200);
+}
+.tryAgainButton:active {
+  background-color: rgb(108, 108, 108);
+}
